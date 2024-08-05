@@ -200,9 +200,11 @@ if (isset($_POST['verify'])) {
 
         if ($codeExist && $codeExist['verification_code'] == $verificationCode) {
             // session_destroy();
+            session_start();
+            $_SESSION['verifikasi_status'] = true;
             echo "
             <script>
-                alert('Registered Successfully.');
+                alert('Verifikasi Sukses.');
                 window.location.href = 'http://localhost:84/otp/home-user.php';
             </script>
             ";

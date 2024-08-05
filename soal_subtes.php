@@ -140,11 +140,12 @@ $jawabanuser = $queryjawabanuser->fetch(PDO::FETCH_ASSOC);
         <div class="col-md-3">
             <div class="card">
                 <div class="card-body">
+                    
                     <div class="d-flex justify-content-center mb-3" style="gap: 10px;">
                         <a class="btn btn-primary nomor" href="http://localhost:84/otp/soal_subtes.php?id=1"
                             style="width: 10rem;height: 4rem; display: flex;justify-content: center;align-items: center; background-color: #cfe4ff;">1</a>
                         <a class="btn btn-primary nomor" href="http://localhost:84/otp/soal_subtes.php?id=2"
-                            style="width: 10rem;height: 4rem; display: flex;justify-content: center;align-items: center;background-color: #cfe4ff;">2</a>
+                            style="width: 10rem;height: 4rem; display: flex;justify-content: center;align-items: center; background-color: #cfe4ff;">2</a>
                         <a class="btn btn-primary nomor" href="http://localhost:84/otp/soal_subtes.php?id=3"
                             style="width: 10rem;height: 4rem; display: flex;justify-content: center;align-items: center; background-color: #cfe4ff;">3</a>
                     </div>
